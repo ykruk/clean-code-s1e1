@@ -4,32 +4,33 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.matrix img {
   width: 100%;
 }
-.aaa .more-inf {
+.matrix .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .aaa { 
+  .matrix { 
     text-align: center;
   }
 
 }
-.centered-main-page-element {
+.main-page-element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.tasks-item-label,
+.tasks-item-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -121,12 +122,12 @@ li > label {
 li > input[type="text"] {
   width: 226px;
 }
-button.delete img {
+button.tasks-button-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.tasks-button-delete img:hover {
   transform: rotateZ(0);
 }
 
