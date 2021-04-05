@@ -10,10 +10,10 @@ body {
   display: block;
   text-align: right;
 }
-.matrix img {
+.matrix-img {
   width: 100%;
 }
-.matrix .more-inf {
+.matrix-inf {
   font-family: fantasy, cursive;
 }
 
